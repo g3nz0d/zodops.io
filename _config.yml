@@ -237,3 +237,8 @@ jekyll-archives:
     category: /categories/:name/
 
 # Trigger site rebuild
+
+# Ensure Jekyll treats this as a site
+theme: jekyll-theme-chirpy
+permalink: /:categories/:title/
+
